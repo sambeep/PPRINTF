@@ -2,7 +2,7 @@
 #define _MAIN_H_
 #include <stdarg.h>
 /**
- * struct print - structure for printing various typ
+ * struct print - structure for printing various types
  * @t: type to print
  * @f: function to print
  */
@@ -26,4 +26,5 @@ int print_p(va_list p);
 int print_S(va_list S);
 int print_r(va_list r);
 int print_R(va_list R);
+
 #endif  /* _MAIN_H */
